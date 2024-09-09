@@ -3,5 +3,6 @@ import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: "/start-recipe_page/",
+  plugins: [react()],
+  base: "/start-recipe_page/"
 })
