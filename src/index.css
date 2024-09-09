@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: outfit;
+  src: url(./assets/fonts/outfit/Outfit-VariableFont_wght.ttf) format(".ttf");
+}
+@font-face {
+  font-family: young-serif;
+  src: url(./assets//fonts/young-serif/YoungSerif-Regular.ttf) format(".ttf");
+}
+h2{
+  font-family: outfit;
+  font-size: 1.5rem;
+  line-height: 1;
+  color: hsl(14, 45%, 36%);
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+}
+p{
+  font-family: young-serif;
+}
+li{
+  font-family: young-serif;
+}
